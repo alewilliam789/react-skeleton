@@ -1,11 +1,10 @@
 import React from "react";
+import '../source/app.css'
 
-const App = () =>{
+export default function App() {
     return (
-        <h1>
+        <div className="bg-gray-200">
             Hello world! I am using React
-        </h1>
+        </div>
     )
 }
-
-export default App
